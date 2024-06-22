@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+ 
+.star-rating .active {
+    color: #ffc107; /* Bootstrap's yellow color */
+  }
+  
+  .star-rating .inactive {
+    color: #e4e5e9; /* Light gray color */
+  }
