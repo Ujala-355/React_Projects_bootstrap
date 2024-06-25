@@ -1,6 +1,8 @@
 // import Selection from "./Accordion_selection/Selection";
 // import RandomColor from "./random_Color/RandomColor";
-import StarRating from "./Star_rating/StarRating"
+// import StarRating from "./Star_rating/StarRating";
+
+import ImageSlider from "./Image_Slider/ImageSlider"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -9,7 +11,8 @@ function App() {
     <>
        {/* <Selection/> */}
        {/* <RandomColor/> */}
-       <StarRating/>
+       {/* <StarRating/> */}
+       <ImageSlider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"}/>
     </>
   );
 }

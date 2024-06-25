@@ -1,0 +1,89 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px; 
+    overflow: hidden;
+    border-radius: 1rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f0f0f0; 
+    border: 2px solid pink;
+}
+
+.current-image {
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
+    width: 80%;
+    height: 100%;
+    object-fit: cover; 
+    transition: opacity 0.5s ease; 
+}
+
+.hide-current-image {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3rem; 
+    height: 3rem;
+    color: #fff;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; 
+}
+
+.arrow-left {
+    left: 1rem;
+}
+
+.arrow-right {
+    right: 1rem;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.circle-indicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.current-indicator,
+.inactive-indicator {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.current-indicator {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.inactive-indicator {
+    background-color: #bbbbbb; 
+}
+
+.inactive-indicator:hover {
+    background-color: #999999; 
+}
