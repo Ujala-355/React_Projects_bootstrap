@@ -5,7 +5,9 @@
 // import LoadMoreProduct from "./loadmoreProduct/LoadMoreProduct";
 // import DataView from "./nested_view/data";
 // import QrCodeGenerator from "./QR_generator/QR_Generator";
-import LightDarkModeToggle from "./Light_dark_mode/light_dark"
+// import LightDarkModeToggle from "./Light_dark_mode/light_dark"
+import ScrollIndicator from './Scroll_indicator/ScrollIndicator';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -20,7 +22,8 @@ function App() {
        {/* <LoadMoreProduct/> */}
        {/* <DataView/> */}
        {/* <QrCodeGenerator/> */}
-       <LightDarkModeToggle/>
+       {/* <LightDarkModeToggle/> */}
+       <ScrollIndicator/>
     </>
   );
 }
