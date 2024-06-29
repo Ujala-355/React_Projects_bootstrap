@@ -6,8 +6,8 @@
 // import DataView from "./nested_view/data";
 // import QrCodeGenerator from "./QR_generator/QR_Generator";
 // import LightDarkModeToggle from "./Light_dark_mode/light_dark"
-import ScrollIndicator from './Scroll_indicator/ScrollIndicator';
-
+// import ScrollIndicator from './Scroll_indicator/ScrollIndicator';
+import CustomTabs from "./Custom_Tabs/CustomTabs"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -23,7 +23,8 @@ function App() {
        {/* <DataView/> */}
        {/* <QrCodeGenerator/> */}
        {/* <LightDarkModeToggle/> */}
-       <ScrollIndicator/>
+       {/* <ScrollIndicator/> */}
+       <CustomTabs/>
     </>
   );
 }
