@@ -7,14 +7,15 @@
 // import QrCodeGenerator from "./QR_generator/QR_Generator";
 // import LightDarkModeToggle from "./Light_dark_mode/light_dark"
 // import ScrollIndicator from './Scroll_indicator/ScrollIndicator';
-import CustomTabs from "./Custom_Tabs/CustomTabs"
+// import CustomTabs from "./Custom_Tabs/CustomTabs"
+import ModalTest from "./Custom_modal/modal_test"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
   return (
-    <>
+    <div className="App">
        {/* <Selection/> */}
        {/* <RandomColor/> */}
        {/* <StarRating/> */}
@@ -24,8 +25,9 @@ function App() {
        {/* <QrCodeGenerator/> */}
        {/* <LightDarkModeToggle/> */}
        {/* <ScrollIndicator/> */}
-       <CustomTabs/>
-    </>
+       {/* <CustomTabs/> */}
+       <ModalTest/>
+    </div>
   );
 }
 
