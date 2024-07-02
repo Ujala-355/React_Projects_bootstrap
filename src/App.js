@@ -7,8 +7,10 @@
 // import QrCodeGenerator from "./QR_generator/QR_Generator";
 // import LightDarkModeToggle from "./Light_dark_mode/light_dark"
 // import ScrollIndicator from './Scroll_indicator/ScrollIndicator';
-// import CustomTabs from "./Custom_Tabs/CustomTabs"
-import ModalTest from "./Custom_modal/modal_test"
+// import CustomTabs from "./Custom_Tabs/CustomTabs";
+// import ModalTest from "./Custom_modal/modal_test";
+// import SearchAutoComplete from "./SearchAutoComplete/Search_auto_complete";
+import FeatureFlage from "./Feature_Flags/FeatureFlags"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -26,7 +28,9 @@ function App() {
        {/* <LightDarkModeToggle/> */}
        {/* <ScrollIndicator/> */}
        {/* <CustomTabs/> */}
-       <ModalTest/>
+       {/* <ModalTest/> */}
+       {/* <SearchAutoComplete/> */}
+       <FeatureFlage/>
     </div>
   );
 }
