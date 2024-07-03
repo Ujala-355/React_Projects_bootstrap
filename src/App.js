@@ -10,7 +10,8 @@
 // import CustomTabs from "./Custom_Tabs/CustomTabs";
 // import ModalTest from "./Custom_modal/modal_test";
 // import SearchAutoComplete from "./SearchAutoComplete/Search_auto_complete";
-import FeatureFlage from "./Feature_Flags/FeatureFlags"
+// import FeatureFlage from "./Feature_Flags/FeatureFlags"
+import ExampleComponent from "./useFetch _Custom _Hook/ExampleComponent"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -30,7 +31,10 @@ function App() {
        {/* <CustomTabs/> */}
        {/* <ModalTest/> */}
        {/* <SearchAutoComplete/> */}
-       <FeatureFlage/>
+       {/* <FeatureFlage/> */}
+
+       {/* useFetch Custom Hook */}
+       <ExampleComponent/>
     </div>
   );
 }
