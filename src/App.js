@@ -12,7 +12,9 @@
 // import SearchAutoComplete from "./SearchAutoComplete/Search_auto_complete";
 // import FeatureFlage from "./Feature_Flags/FeatureFlags"
 // import ExampleComponent from "./useFetch _Custom _Hook/ExampleComponent"
-import UseClick from "./useOnclickOutside_CustomHook/Index.js"
+// import UseClick from "./useOnclickOutside_CustomHook/Index.js"
+import ResponsiveCom  from './useWindowResize/ResponsiveCom';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -37,7 +39,10 @@ function App() {
        {/* useFetch Custom Hook */}
        {/* <ExampleComponent/> */}
 
-       <UseClick/>
+       {/* useOnclickOutside Custom Hook */}
+       {/* <UseClick/> */}
+
+        <ResponsiveCom/>
     </div>
   );
 }
