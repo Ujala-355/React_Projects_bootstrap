@@ -13,8 +13,8 @@
 // import FeatureFlage from "./Feature_Flags/FeatureFlags"
 // import ExampleComponent from "./useFetch _Custom _Hook/ExampleComponent"
 // import UseClick from "./useOnclickOutside_CustomHook/Index.js"
-import ResponsiveCom  from './useWindowResize/ResponsiveCom';
-
+// import ResponsiveCom  from './useWindowResize/ResponsiveCom';
+import SamplePage from './ Scroll_to _Top_and _Bottom/SamplePage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -42,7 +42,10 @@ function App() {
        {/* useOnclickOutside Custom Hook */}
        {/* <UseClick/> */}
 
-        <ResponsiveCom/>
+       {/* useOnclickOutside_CustomHook */}
+        {/* <ResponsiveCom/> */}
+
+        <SamplePage/>
     </div>
   );
 }
