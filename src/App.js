@@ -11,7 +11,8 @@
 // import ModalTest from "./Custom_modal/modal_test";
 // import SearchAutoComplete from "./SearchAutoComplete/Search_auto_complete";
 // import FeatureFlage from "./Feature_Flags/FeatureFlags"
-import ExampleComponent from "./useFetch _Custom _Hook/ExampleComponent"
+// import ExampleComponent from "./useFetch _Custom _Hook/ExampleComponent"
+import UseClick from "./useOnclickOutside_CustomHook/Index.js"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -34,7 +35,9 @@ function App() {
        {/* <FeatureFlage/> */}
 
        {/* useFetch Custom Hook */}
-       <ExampleComponent/>
+       {/* <ExampleComponent/> */}
+
+       <UseClick/>
     </div>
   );
 }
