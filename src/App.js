@@ -15,7 +15,9 @@
 // import UseClick from "./useOnclickOutside_CustomHook/Index.js"
 // import ResponsiveCom  from './useWindowResize/ResponsiveCom';
 // import SamplePage from './ Scroll_to _Top_and _Bottom/SamplePage';
-import ScrollParticularSection from "./Scroll_Particular_Section /ScrollParticularSection"
+// import ScrollParticularSection from "./Scroll_Particular_Section /ScrollParticularSection";
+
+import WeatherApp from "./weather_app/WeatherApp"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -49,7 +51,9 @@ function App() {
         Scroll to Top and Bottom
         <SamplePage/> */}
 
-        <ScrollParticularSection/>
+        {/* <ScrollParticularSection/> */}
+
+        <WeatherApp/>
     </div>
   );
 }
