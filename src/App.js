@@ -14,7 +14,8 @@
 // import ExampleComponent from "./useFetch _Custom _Hook/ExampleComponent"
 // import UseClick from "./useOnclickOutside_CustomHook/Index.js"
 // import ResponsiveCom  from './useWindowResize/ResponsiveCom';
-import SamplePage from './ Scroll_to _Top_and _Bottom/SamplePage';
+// import SamplePage from './ Scroll_to _Top_and _Bottom/SamplePage';
+import ScrollParticularSection from "./Scroll_Particular_Section /ScrollParticularSection"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -44,8 +45,11 @@ function App() {
 
        {/* useOnclickOutside_CustomHook */}
         {/* <ResponsiveCom/> */}
+{/* 
+        Scroll to Top and Bottom
+        <SamplePage/> */}
 
-        <SamplePage/>
+        <ScrollParticularSection/>
     </div>
   );
 }
