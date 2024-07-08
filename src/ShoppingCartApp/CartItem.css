@@ -1,0 +1,14 @@
+.cart-item{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+    padding:10%;
+    border-bottom:1px solid #ddd;
+}
+.cart-item .item-price{
+    margin-right:10px;
+}
+.cart-item .remove-button{
+    margin-left:10px;
+}

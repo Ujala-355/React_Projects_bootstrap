@@ -16,8 +16,9 @@
 // import ResponsiveCom  from './useWindowResize/ResponsiveCom';
 // import SamplePage from './ Scroll_to _Top_and _Bottom/SamplePage';
 // import ScrollParticularSection from "./Scroll_Particular_Section /ScrollParticularSection";
-// import WeatherApp from "./weather_app/WeatherApp"
-import Main from "./FoodRecipe_App/index"
+// import WeatherApp from "./weather_app/WeatherApp";
+// import Main from "./FoodRecipe_App/index";
+import Main from "./ShoppingCartApp/index";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -55,7 +56,12 @@ function App() {
 
         {/* <WeatherApp/> */}
 
+        {/* Food Recipe App
+        <Main/> */}
+
         <Main/>
+
+
     </div>
   );
 }
