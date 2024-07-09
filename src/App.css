@@ -37,6 +37,7 @@
   }
 }
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #b2d8fc;
+    background: linear-gradient(to right, #b888ec, #b5cbf2);
+    /* color: #fff; */
+    color: #caf092;
 }

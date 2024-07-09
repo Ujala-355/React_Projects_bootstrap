@@ -18,7 +18,9 @@
 // import ScrollParticularSection from "./Scroll_Particular_Section /ScrollParticularSection";
 // import WeatherApp from "./weather_app/WeatherApp";
 // import Main from "./FoodRecipe_App/index";
-import Main from "./ShoppingCartApp/index";
+// import Main from "./ShoppingCartApp/index";
+import ExpenseTracker from "./ExpenseTrackerApp/ExpenseTracker"
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -59,9 +61,10 @@ function App() {
         {/* Food Recipe App
         <Main/> */}
 
-        <Main/>
+        {/* Shopping Cart App */}
+        {/* <Main/> */}
 
-
+        <ExpenseTracker/>
     </div>
   );
 }
